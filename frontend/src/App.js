@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Shop from "./Pages/Shop/index.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello! Harsh</h1>
+      <Shop />
     </div>
   );
 }
