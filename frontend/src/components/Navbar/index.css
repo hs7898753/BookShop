@@ -12,6 +12,7 @@ nav {
     align-items: center;
     padding: 0px;
     height: 75px;
+    box-shadow: 0 0 20px #FFE4D6;
   }
   .logo img {
     max-width: 170px;
