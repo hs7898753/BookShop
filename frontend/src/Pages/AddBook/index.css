@@ -1,0 +1,31 @@
+.addbook{
+    margin :12vh auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #FACBEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width:600px;
+}
+#image{
+    border: none;
+}
+#submit{
+    background-color: #D988B9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #FACBEA;
+    height:40px;
+}
+#submit:hover{
+    background-color: #FACBEA;
+    color: #fff;
+}
