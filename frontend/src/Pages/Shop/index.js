@@ -13,12 +13,18 @@ function Shop() {
 }
 
 function ShopContent(){
+  const handleaddbookClick = () => {
+    if (window.location.pathname !== "/addbook") {
+      window.location.href = "/addbook";
+    }
+  };
   return (
     <div className="shop-content">
       <div className="productList">
-        <section className="filter">Filter</section>
+        <section className="filter"><h1>Filter</h1></section>
         <section className="product">
           <div className="row2">
+          <button className="sellbook" onClick={handleaddbookClick}>Add Book</button>
             <Product />
           </div>
         </section>
